@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FenrirsGhost - Hardware & Architecture</title>
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #58a66f;
+      font-family: 'Consolas', 'Monaco', monospace;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    a { color: #3fb950; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    h1 { color: #7ee787; border-bottom: 1px solid #238636; padding-bottom: 10px; }
+    h2 { color: #cdd4e6; margin-top: 30px; }
+    .section { margin-bottom: 40px; }
+    ul { list-style-type: "> "; padding-left: 20px; }
+    code { background: #161b22; padding: 2px 6px; border-radius: 3px; }
+    footer { margin-top: 60px; font-size: 0.9em; opacity: 0.7; }
+  </style>
+</head>
+<body>
+    <a href="index.html"><- Back to About</a>
+
+    <h1>Hareware & Infrastructure</h1>
+
+    <h2>Hardware</h2>
+    <div class="section"></div>
+        <h3>TrueNAS Server</h3>
+        <ul>
+            <li><strong>CPU:</strong> Intel Core i5-9500 @ 3.00GHz(base) 6 cores, 6 threads</li>
+            <li><strong>RAM:</strong> 32GB DDR4 (mixed Corsair + Hynix)</li>
+            <li><strong>Storage:</strong> ZFS pool (TheDen) on TrueNAS Scale 25.10.3, with automated scrubs verifying data integrity monthly</li>
+            <li><strong>Boot:</strong> Dedicated NMVe boot pool</li>
+        </ul>
+
+        <h3>Workstation</h3>
+        <ul>
+            <li><strong>CPU:</strong> AMD Ryzen 7 5700X3D 8-Core, 16 Thread</li>
+            <li><strong>RAM:</strong> 64GB DDR4</li>
+            <li><strong>GPU:</strong> AMD RX 6600XT</li>
+            <li><strong>Storage:</strong> Samsung SSD 990 EVO Plus 2TB PCIe Gen 4x4, 2x2TB HDDs, Back up Windows NVMe.</li>
+        </ul>
+    </div>
+
+    <footer>Built with lots of coffee and swearing</footer>
+</body>
+</html>
